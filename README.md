@@ -98,20 +98,12 @@ The schema follows the assignment's example. The implementation allows empty arr
 - Build a review screen for correcting company metadata and approving summaries.
 
 ## Tests
-
 ```bash
 python -m unittest discover -s tests -v
 ```
-
 ## Sample outputs / honest submission note
 
 The assignment requests raw transcripts and AI JSON/Markdown summaries for at least three companies. These must be generated from the actual downloaded source PDFs and a configured LLM key. This repository does not include invented financial figures or fabricated summaries. Run the watcher with a valid key; the first successfully discovered and processed transcripts will populate the output folders. For a deadline submission, also run a controlled one-time backfill against three confirmed transcript PDF URLs and include those source PDFs and generated outputs.
 
-## Submission checklist
-
-- [ ] Run `python run.py` and verify dashboard.
-- [ ] Verify `/ws` receives a `new_summary` event after a new transcript is processed.
-- [ ] Confirm at least three downloaded PDFs and matching `.txt`, `.json`, `.md` files.
-- [ ] Inspect figures and Q&A against original PDFs.
-- [ ] Push the repository to GitHub and invite `dy@saras.market` if private.
-- [ ] Send repo URL and a 2–3 line walkthrough to `dy@saras.market`.
+**Concall Intelligence — AI-Powered Earnings Call Analysis**
+An automated pipeline for monitoring NSE/BSE corporate announcements, extracting earnings-call transcripts from PDFs, and generating structured financial insights using Qwen 2.5. Built with Python, FastAPI, SQLite, and WebSockets, the project provides a real-time dashboard for tracking filings and AI-generated summaries.
