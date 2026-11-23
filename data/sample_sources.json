@@ -1,0 +1,29 @@
+[
+  {
+    "company": "Hindalco Industries Limited",
+    "sector": "Metals",
+    "quarter": "Q2 FY27",
+    "filing_date": "2026-11-12",
+    "source": "Company-hosted transcript linked from exchange filing",
+    "source_url": "https://www.hindalco.com/Upload/PDF/transcript-q2-fy27earnings-call.pdf",
+    "verification_note": "Transcript filing dated November 12, 2026; the call covered the quarter and half-year ended September 30, 2026."
+  },
+  {
+    "company": "IRCON International Limited",
+    "sector": "Infrastructure",
+    "quarter": "Q2 & H1 FY27",
+    "filing_date": "2026-11-06",
+    "source": "NSE archives",
+    "source_url": "https://nsearchives.nseindia.com/corporate/IRCON_06112026132745_STXTRANSCRIPTsigned.pdf",
+    "verification_note": "NSE filing identifies the document as transcript of the investor conference call held November 5, 2026."
+  },
+  {
+    "company": "Pennar Industries Limited",
+    "sector": "Engineering",
+    "quarter": "Q2 FY27",
+    "filing_date": "2026-11-20",
+    "source": "NSE archives",
+    "source_url": "https://nsearchives.nseindia.com/corporate/PENIND_20112026211333_TranscriptoftheQ2FY27Resultsconferencecall20112026.pdf",
+    "verification_note": "NSE filing dated November 20, 2026; transcript of Q2 FY27 results conference call hosted November 16, 2026."
+  }
+]

@@ -1,0 +1,17 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+model/
+*.gguf
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+.vscode/
+"@ | Set-Content ".gitignore"
